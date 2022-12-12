@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang='ko'>
+    <head>
+        <title>MAIN</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+        <style>
+            video {
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
+            }
+            *{
+                font-family: 'Do Hyeon', sans-serif;
+            }
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            ul li{
+                list-style: none;
+            }
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 20px;
+            }
+            #menu{
+                position: absolute;
+                right: 10px;
+                top: 20px;
+                line-height: 30px;
+                margin: 0 auto;
+                text-align: center;
+            }
+            h1{
+                position: absolute;
+                left: 40px;
+                bottom: 20px;
+            }
+            #menu > ul > li {
+                float: left;
+                width: 140px;
+                position: relative;
+            }
+            #menu > ul > li > ul {
+                width: 130px;
+                display: none;
+                position: absolute;
+                font-size: 18px;
+            }
+            #menu > ul > li:hover > ul {
+                display: block;
+            }
+            a:hover{
+                color:rgb(0, 198, 205);
+            }
+        </style>
+    </head>
+    <body>
+        <video src="./Motiondesign - 42312.mp4" muted autoplay loop></video>
+        <h1 style="font-size:300px; color:white; font-weight: 200;;">pHython</h1>
+        <div id="menu">
+            <ul>
+                <li><a href="#">계산기</a>
+                    <ul>
+                        <li><a href="https://jbss.github.io/pHython_Molarity/">농도변환</a></li>
+                        <li><a href="https://jbss.github.io/pHython_alphacalculator/">이온화도</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">pH계산</a>
+                    <ul>
+                        <li><a href="https://jbss.github.io/pHython_WeakAcid/">약산</a></li>
+                        <li><a href="https://jbss.github.io/pHython_WeakBase/">약염기</a></li>
+                        <li><a href="https://jbss.github.io/pHython_StrongAcid/">강산</a></li>
+                        <li><a href="https://jbss.github.io/pHython_StrongBase/">강염기</a></li>
+                    </ul>
+                </li>
+                <li><a href="https://jbss.github.io/pHython_Sources/">자료실</a></li>
+                <li><a href="https://jbss.github.io/pHython_Copyrights/">copyrights</a></li>
+            </ul>
+        </div>
+    </body>
+</html>
